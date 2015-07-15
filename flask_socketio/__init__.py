@@ -9,7 +9,7 @@ from werkzeug.debug import DebuggedApplication
 from werkzeug.serving import run_with_reloader
 from werkzeug._internal import _log
 
-from test_client import SocketIOTestClient
+from .test_client import SocketIOTestClient
 
 
 class _SocketIOMiddleware(object):
